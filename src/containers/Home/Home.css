@@ -1,0 +1,39 @@
+.Home {
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+	align-items: center;
+	justify-content: center;
+}
+
+.Home-input {
+	margin: 1em;
+	padding: 0.7em;
+	font-size: 1em;
+	height: 1.1em;
+	width: 5em;
+	text-align: center;
+	border: 0.05em solid #ccc;
+	border-radius: 0.15em;
+}
+
+.Home-form {
+	display: flex;
+	align-content: center;
+	align-items: center;
+	justify-content: center;
+}
+
+.Home-intro {
+	display: flex;
+}
+
+.Home-chart {
+	margin: 1em;
+}
+
+@media (max-width: 30rem) {
+	.Home-intro {
+		font-size: 1.1em;
+	}
+}

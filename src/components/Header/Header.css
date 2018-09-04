@@ -1,0 +1,41 @@
+.Header {
+	top: 0;
+	padding: 0;
+	margin: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: row;
+}
+
+.Header-container {
+	flex: 1;
+	display: flex;
+	justify-content: flex-start;
+	max-width: 45em;
+	padding: 1em;
+	margin: 0em 2em 0em 2em;
+}
+
+.Header-item {
+	vertical-align: middle;
+}
+
+.Header-button {
+	margin: 0 1em 0 0;
+	font-weight: 600;
+	font-size: 0.85em;
+	padding: 0.3em 0.8em 0.3em 0.8em;
+	border: black solid 2px;
+	border-radius: 0.3em;
+}
+
+.Header-button:hover {
+	background-color: #eee;
+	box-shadow: 2px 2px;
+	cursor: pointer;
+}
+
+.Header-button.active {
+	box-shadow: 2px 2px;
+}

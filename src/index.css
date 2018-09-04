@@ -1,0 +1,23 @@
+@font-face {
+	font-family: 'Cereal';
+	src: url('assets/fonts/Cereal/AirbnbCereal-Black.ttf') format('ttf'),
+		url('assets/fonts/Cereal/AirbnbCereal-Bold.ttf') format('ttf'),
+		url('assets/fonts/Cereal/AirbnbCereal-Book.ttf') format('ttf'),
+		url('assets/fonts/Cereal/AirbnbCereal-ExtraBold.ttf') format('ttf'),
+		url('assets/fonts/Cereal/AirbnbCereal-Light.ttf') format('ttf'),
+		url('assets/fonts/Cereal/AirbnbCereal-Medium.ttf') format('ttf');
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Cereal', sans-serif;
+}
+
+a:link,
+a:active,
+a:visited,
+a:hover {
+	text-decoration: none;
+	color: inherit;
+}
